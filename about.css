@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.about{
+    padding: 80px 0px;
+}
+.container{
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 20px;
+}
+.img{
+    margin-left: 200px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+.about h1{
+    font-size: 55px;
+    margin-bottom: 30px;
+    color: #333;
+}
+.about h3{
+    font-size: 35px;
+    color: #888;
+    margin-bottom: 10px;
+}
+.about p{
+    font-size: 20px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 25px;
+}
+.link{
+    margin-bottom:30px;
+}
+.link a{
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+    transition: all 0.4s ease;
+}
+.link a:hover{
+    transform: translateY(-5px);
+}
+.button{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px ;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background-color:black;
+    box-shadow: 0px 4px 6px;
+    transition: all 0.4s ease;
+}
+.button:hover{
+    transform: translateY(-5px);
+}
+@media (max-width:920px){
+    .row{
+        flex-direction: column;
+    }
+    .flex{
+        max-width: 100%;
+    }
+    .about h1{
+        font-size: 31px;
+    }
+    .about h3{
+        font-size: 16px;
+    }
+    .about p{
+        line-height: 1.2;
+    }
+    .link a{
+        width: 30px;
+        height: 30px;
+        line-height: 20px;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    .button{
+        font-size: 16px;
+        padding: 8px 16px;
+        margin-bottom: 30px;
+    }
+}
+.para{
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+.butto {
+  text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px ;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 43%;
+    border-radius: 8px;
+    background-color: black;
+    box-shadow: 0px 4px 6px;
+    transition: all 0.4s ease;
+}
+.butto:hover{
+    transform: translateY(-5px);
+}
