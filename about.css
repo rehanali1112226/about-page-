@@ -60,6 +60,7 @@
 }
 .button{
     text-decoration: none;
+    position: absolute;
     color: #fff;
     display: inline-block;
     padding: 10px 20px ;
@@ -74,12 +75,14 @@
 .button:hover{
     transform: translateY(-5px);
 }
-@media (max-width:920px){
+@media (max-width:768px){
     .row{
         flex-direction: column;
+        text-align: center;
     }
     .flex{
         max-width: 100%;
+        
     }
     .about h1{
         font-size: 31px;
@@ -102,13 +105,14 @@
         padding: 8px 16px;
         margin-bottom: 30px;
     }
+    
 }
 .para{
     font-weight: bold;
     text-align: center;
     font-size: 50px;
 }
-.butto {
+.butt {
   text-decoration: none;
     color: #fff;
     display: inline-block;
@@ -120,7 +124,27 @@
     background-color: black;
     box-shadow: 0px 4px 6px;
     transition: all 0.4s ease;
+
 }
-.butto:hover{
+.butt:hover{
     transform: translateY(-5px);
+}
+
+.stat-box {
+    text-align: center;
+}
+
+.stat-box h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.stat-box p {
+    font-size: 16px;
+    color: gray;
+}
+
+.border-line {
+    border-left: 3px solid black;
+    padding-left: 20px;
 }
