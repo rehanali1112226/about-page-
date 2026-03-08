@@ -1,0 +1,115 @@
+.arrival{
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(123, 181, 218);
+    padding: 30px 10px;
+    width: 100%;
+}
+
+.arri{
+    font-size:50px;
+    font-weight: bold;
+}
+
+.para1{
+    font-size: 40px;
+}
+
+.para2{
+    font-size: 25px;
+}
+
+@media (max-width:768px){
+
+.arri{
+    font-size:32px;
+}
+
+.para1{
+    font-size:24px;
+}
+
+.para2{
+    font-size:18px;
+}
+
+}
+
+.main-btn{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px;
+padding:20px;
+}
+
+
+.btn{
+border:none;
+padding:10px 20px;
+font-size:16px;
+font-weight:600;
+color:white;
+border-radius:50px;
+cursor:pointer;
+transition:0.3s;
+}
+
+
+.btn:hover{
+transform:scale(1.08);
+}
+
+
+.web{
+background:linear-gradient(45deg,#ff8bd8,#c86cff);
+}
+
+.ecommerce{
+background:linear-gradient(45deg,#ffb3c1,#ff7e95);
+}
+
+.design{
+background:linear-gradient(45deg,#ff9ac4,#ff6fa7);
+}
+
+.marketing{
+background:linear-gradient(45deg,#ffb6b9,#ff7f8c);
+}
+
+.social{
+background:linear-gradient(45deg,#7ab6ff,#4f8cff);
+}
+
+.seo{
+background:linear-gradient(45deg,#7da7ff,#5f6cff);
+}
+
+.business{
+background:linear-gradient(45deg,#9aa8ff,#7b7bff);
+}
+
+.guides{
+background:linear-gradient(45deg,#a78bfa,#6366f1);
+}
+
+.ai{
+background:linear-gradient(45deg,#d18bff,#8b5cf6);
+}
+
+.news{
+background:linear-gradient(45deg,#7c83ff,#4f46e5);
+}
+
+@media(max-width:768px){
+
+.btn{
+font-size:14px;
+padding:8px 15px;
+}
+
+.main-btn{
+gap:10px;
+}
+
+}
