@@ -91,7 +91,6 @@ $(document).on('click', '.view', function(e){
 
     let myid = $(this).data('id')
 
-
  fetch('arrival.json')
 .then(response => response.json())
 .then(json =>{
@@ -116,7 +115,6 @@ $(document).on('click', '.view', function(e){
   modal.show();
 
 })
- let modal = new bootstrap.Modal(document.getElementById('modal')).show()
 
 })
 
