@@ -52,7 +52,7 @@
 
 
 {
-    "p_id": 3,
+    "p_id": 6,
     "p_name": "Construction Engineering Bulldozer City Truck",
     "p_description":"Built for young construction fans,",
     "P_rating":"5",
@@ -62,7 +62,7 @@
 },
 
 {
-    "p_id": 2,
+    "p_id": 7,
     "p_name": "Four-Way Construction Engineering Crane Truck ",
     "p_description":" Designed for aspiring engineers, this realistic crane truck offers dynamic,",
     "P_rating":"5",
@@ -72,7 +72,7 @@
 },
 
 {
-    "p_id": 1,
+    "p_id": 8,
     "p_name": "Remote Control Formula 1 Car With Smoke Effect",
     "p_description":" high-speed racing fun with this Remote Control Formula 1 Car with Smoke Effect.",
     "P_rating":"5",
@@ -82,7 +82,7 @@
 },
 
 {
-    "p_id": 1,
+    "p_id": 9,
     "p_name": " Diecast Mitsubishi Delica Camping Van",
     "p_description":" Constructed from high-quality diecast metal for added durability and realistic weight..",
     "P_rating":"5",
@@ -92,7 +92,7 @@
 },
 
 {
-    "p_id": 1,
+    "p_id": 10,
     "p_name": "Diecast Nissan Skyline ARES GTR",
     "p_description":" is a premium collectible designed for car lovers and young racers alike.",
     "P_rating":"5",
@@ -102,7 +102,7 @@
 },
 
 {
-    "p_id": 1,
+    "p_id": 11,
     "p_name": "G-Klessa With Light And Sound",
     "p_description":"Built with a durable metal alloy die-cast body with ABS and PVC parts, ensuring a sturdy.",
     "P_rating":"5",
@@ -112,7 +112,7 @@
 },
 
 {
-    "p_id": 1,
+    "p_id": 12,
     "p_name": "Hand Gesture Remote Control Monster Truck",
     "p_description":"Features dynamic spray and smoke effects perform stunts with ease.",
     "P_rating":"5",
