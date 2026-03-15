@@ -59,7 +59,7 @@
 }
 .button{
     text-decoration: none;
-    color:rgb(102, 157, 206);
+    color:rgb(16, 59, 177);
     display: inline-block;
     padding: 10px 20px ;
     font-size: 18px;
@@ -114,7 +114,7 @@
 }
 .butt{
     text-decoration: none;
-    color: rgb(102, 157, 206);
+    color: rgb(16, 59, 177);
     display: block;
     padding: 10px 20px ;
     font-size: 18px;
@@ -201,7 +201,7 @@ ul{
     list-style: none;
 }
 .footer{
-    background-color: rgb(102, 157, 206);
+    background-color: rgb(16, 59, 177);
     padding: 70px 0;
 }
 .footer-col{
@@ -280,7 +280,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    background-color: rgb(102, 157, 206);
+    background-color: rgb(16, 59, 177);
     z-index: 1000;
 }
 

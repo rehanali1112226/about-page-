@@ -70,6 +70,9 @@ document.addEventListener("DOMContentLoaded", function() {
     
      <button class="btn btn-primary view" data-id="${data.p_id}" style="height: 40px;width: 100%;border-radius: 40px; background:linear-gradient(135deg, #bf00e6, #f69, #ff9f1a);; outline: none; border:none; color: white;margin-top: 3px;">View More</button>
   </div>
+
+        <a herf="${data.p_link}" class = "btn mb-2" download" style="border-radius:40px;background-color:blue;color:white" download> download </a>
+
 </div>
 </div>`
 

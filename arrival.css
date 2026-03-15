@@ -126,7 +126,7 @@ gap:10px;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    background-color: rgb(102, 157, 206);
+    background-color: rgb(16, 59, 177);
     z-index: 1000;
 }
 
@@ -401,15 +401,17 @@ input {
     transition:  0.3s;
 }#add-cart:hover{transform: scale(1.08);}
 
+.card-body{
+    box-shadow: 0px 0px 3px 0px gray;
+}
 .card{
-    box-shadow: 1px 2px 4px;
+    box-shadow: 0px 0px 3px 0px gray;
 }
 
 
 
 
                  /* footer */
-
 *{
     margin: 0;
     padding: 0;
@@ -427,7 +429,7 @@ ul{
     list-style: none;
 }
 .footer{
-    background-color: rgb(102, 157, 206);
+    background-color: rgb(16, 59, 177);
     padding: 70px 0;
 }
 .footer-col{
@@ -495,3 +497,4 @@ ul{
         width: 100%;
     }
 }
+    
